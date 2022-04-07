@@ -1,0 +1,116 @@
+/* --- Content --- */
+.content {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 3rem;
+}
+
+/* --- Header ---*/
+
+.header img {
+    width: 430px;
+    height: 150px;
+}
+
+/* --- Search --- */
+
+.search {
+    background-color: rgba(172, 173, 173, 0.329);
+}
+
+.search-header {
+    margin: 0;
+}
+
+
+.searchbar {
+    margin: 0;
+    width: 380px;
+    height: 22px;
+}
+.search-options{
+    margin: 0;
+}
+
+.search-options button {
+    width: 130px;
+    height: 34px;
+    font-size: 16px;
+}
+
+.search-options button:hover {
+    background-color: rgb(129, 232, 250);
+}
+
+/* --- Options --- */
+
+.options {
+    display:-webkit-box;
+    margin-top: 2px;
+    background-color: aliceblue;
+}
+
+/* --- Special Searches --- */
+
+.special {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 102px;
+    background-color: rgb(126, 229, 218);
+    border-right: 3px solid white;
+    
+}
+
+.special p {
+    margin-bottom: 0;
+}
+
+/* --- About --- */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 99px;
+    background-color: rgb(112, 204, 194);
+    padding-top: 3px;
+    border-right: 3px solid white;
+}
+
+/* --- Subscribe ---*/
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 44.7%;
+    height: 102px;
+    background-color: #62B3AA;
+    border-right: 3px solid white;
+}
+
+.subscribe p {
+    margin: 0;
+    padding: 0;
+}
+
+.subscribe input{
+    width: 190px;
+    height: 22px;
+    font-size: 15px;
+}
+
+.subscribe button {
+    height: 28px;
+    font-size: 18px;
+}
+.subscribe button:hover {
+    background-color: rgb(129, 232, 250);
+}
+
+.subscribe-options a {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+}
