@@ -9,13 +9,13 @@
 
 .header img {
     width: 430px;
-    height: 150px;
+    height: 140px;
 }
 
 /* --- Search --- */
 
 .search {
-    background-color: rgba(172, 173, 173, 0.329);
+    background-color: #00000011;
 }
 
 .search-header {
@@ -34,7 +34,7 @@
 
 .search-options button {
     width: 130px;
-    height: 34px;
+    height: 30px;
     font-size: 16px;
 }
 
@@ -45,9 +45,8 @@
 /* --- Options --- */
 
 .options {
-    display:-webkit-box;
-    margin-top: 2px;
-    background-color: aliceblue;
+    display: flex;
+    margin-top: 3px;
 }
 
 /* --- Special Searches --- */
@@ -55,7 +54,7 @@
 .special {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 36%;
     height: 102px;
     background-color: rgb(126, 229, 218);
     border-right: 3px solid white;
@@ -71,10 +70,12 @@
 .about {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    height: 99px;
+    align-items: center;
+    justify-content: center;
+    width: 19.6%;
+    height: 102px;
+    font-size: 16px;
     background-color: rgb(112, 204, 194);
-    padding-top: 3px;
     border-right: 3px solid white;
 }
 
@@ -84,15 +85,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 44.7%;
+    width: 45%;
     height: 102px;
     background-color: #62B3AA;
-    border-right: 3px solid white;
 }
 
 .subscribe p {
     margin: 0;
-    padding: 0;
+    padding-top: 3px;
+    font-size: 16px;
 }
 
 .subscribe input{
